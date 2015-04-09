@@ -97,6 +97,9 @@ EXPOSE  80
 # StatsD UDP port
 EXPOSE  8125/udp
 
+# Graphite
+EXPOSE  2003/udp
+
 # StatsD Management port
 EXPOSE  8126
 
