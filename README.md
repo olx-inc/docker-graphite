@@ -11,7 +11,7 @@ All you need as a prerequisite is having Docker installed on your machine. The c
 - `80`: the Grafana web interface.
 - `8125`: the StatsD port.
 - `8126`: the StatsD administrative port.
-- `2003`: the Graphite por.
+- `2003`: the Graphite port.
 
 The Dockerfile and supporting configuration files are available in our [Github repository](https://gitlab.com/olx-inc/docker-graphite.git).
 This comes specially handy if you want to change any of the StatsD, Graphite or Grafana settings, or simply if you want
