@@ -13,20 +13,20 @@ All you need as a prerequisite is having Docker installed on your machine. The c
 - `8126`: the StatsD administrative port.
 - `2003`: the Graphite port.
 
-The Dockerfile and supporting configuration files are available in our [Github repository](https://gitlab.com/olx-inc/docker-graphite.git).
+The Dockerfile and supporting configuration files are available in our [Github repository](https://github.com/olx-inc/docker-graphite).
 This comes specially handy if you want to change any of the StatsD, Graphite or Grafana settings, or simply if you want
 to know how tha image was built. The repo also has `build` and `start` scripts to make your workflow more pleasant.
 
 To build the container image from the repository you just need to run the following command:
 
 ```bash
-$ docker build -t olx-inc/graphite https://gitlab.com/olx-inc/docker-graphite.git
+$ docker build -t olx-inc/graphite https://github.com/olx-inc/docker-graphite.git
 ```
 
 If you need to change some config files you just need to run the following command:
 
 ```bash
-$ git clone https://gitlab.com/olx-inc/docker-graphite.git
+$ git clone https://github.com/olx-inc/docker-graphite.git
 $ cd docker-graphite.git
 $ <do some change>
 $ docker build -t olx-inc/graphite .
